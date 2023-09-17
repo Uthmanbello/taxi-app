@@ -356,6 +356,13 @@ payment-detail {
   margin-bottom: -40px;
   margin-top: -40px;
 }
+.detail-items div {
+  border: 1px solid #d6d6d6;
+  background-color: #EDEDED;
+  padding: 10px 32px;
+  width: 100vw;
+  margin-left: -8%;
+}
 
 .payment-info div {
   width: 80vw;
