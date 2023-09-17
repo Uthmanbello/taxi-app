@@ -272,6 +272,16 @@ body {
 }
 
 /* DETAIL PAGE */
+.rating-body {
+  background-color: #8F00FF;
+  height: 70vh;
+  padding: 0% 8%;
+}
+
+.rating-body div h3{
+  color: #FFFFFF;
+}
+
 payment-detail {
   text-align: justify;
 }
