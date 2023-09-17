@@ -8,6 +8,11 @@ body {
   padding: 0;
 }
 
+li {
+  list-style: none;
+  margin: 0;
+}
+
 .row {
   display: flex;
   flex-direction: row;
@@ -283,9 +288,13 @@ body {
   padding: 0% 8%;
 }
 
+.rating-body .heading-rating a {
+  margin-top: 10px;
+}
+
 .rating-body-2 {
   background-color: #FFFFFF;
-  height: 50vh;
+  height: 60vh;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   width: 100vw;
