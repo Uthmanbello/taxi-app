@@ -8,6 +8,18 @@ body {
   justify-content: space-between;
 }
 
+.body {
+  background-image: url('images/map-image.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 73vh;
+}
+
+.navbar {
+  width: 376px;
+  height: 98px;
+}
+
 .nav-icon {
   display: flex;
   flex-direction: column;
@@ -26,6 +38,11 @@ body {
   width: 18px;
   border: 1px solid #FFFFFF;
   transition: transform 0.3s ease;
+}
+
+.logo {
+  width: 50px;
+  /* height: 50px; */
 }
 
 .profile-pic-div {
