@@ -8,6 +8,11 @@ body {
   padding: 0;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
 .column {
   display: flex;
   flex-direction: column;
@@ -278,8 +283,40 @@ body {
   padding: 0% 8%;
 }
 
+.rating-body-2 {
+  background-color: #FFFFFF;
+  height: 50vh;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 100vw;
+  margin: 0% -10%;
+  padding: 2% 8%;
+}
+
 .rating-body div h3{
   color: #FFFFFF;
+}
+
+.profile-pic-rating {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.username {
+  font-weight: bolder;
+}
+
+star-rating {
+  align-items: center;  
+}
+
+.rating-number {
+  margin-top: -35px;
+  padding: 0;
+}
+
+.rating-number p {
+  color: #d6d6d6;
 }
 
 payment-detail {
