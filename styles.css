@@ -328,8 +328,33 @@ star-rating {
   color: #d6d6d6;
 }
 
+.trip-enquiry {
+  text-align: center;
+  margin-top: -10px;
+}
+
+.stars {
+  align-items: center;
+  justify-content: center;
+  margin-top: -10px;
+  gap: 5px;
+}
+
+.text {
+  margin-top: 5px;
+  width: 90%;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  border: 1px solid #d6d6d6;
+  background-color: #EDEDED;
+}
+
 payment-detail {
   text-align: justify;
+  margin-bottom: -40px;
+  margin-top: -40px;
 }
 
 .payment-info div {
