@@ -10,18 +10,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,500;0,700;1,100&family=Lato:wght@400;700;900&family=Lobster&family=Rubik:wght@300;400&display=swap" rel="stylesheet">
+    <script src="scripts/navbar.js" defer></script>
   </head>
   <body>
     <section class="body">
       <nav class="space-between navbar">
-        <div class="nav-icon">
-          <span></span>
-          <span></span>
-          <span></span>
+        <div class="nav-icon" id="nav-icon">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
         <img src="images/lyft_logo.svg" alt="lyft logo" class="logo">
         <img src="images/profile_pic(1).png" alt="profile picture" class="profile-pic">
       </nav>
+
+      <div class="panel" id="panel">
+        <ul>
+          <li><img src="images/ellipse.svg">&nbsp;&nbsp;Skate Park</li>
+          <li class="add-item"><span class="add-rule"></span><span class="add-button"><img src="images/plus-circle.svg">&nbsp;Add</span></li>
+          <li><img src="images/ic_pin.svg">&nbsp;&nbsp;&nbsp;Home</li>
+        </ul>
+      </div>
+
       <div class="choose-ride">
         <p>Choose your ride</p>
         <img src="images/Back.svg">
