@@ -270,3 +270,24 @@ body {
   padding-top: 10px;
   rotate: 180deg;
 }
+
+/* DETAIL PAGE */
+payment-detail {
+  text-align: justify;
+}
+
+.payment-info div {
+  width: 80vw;
+  margin-top: -18px;
+  margin-bottom: -15px;
+  padding: 0;
+}
+
+.payment-info div:last-child {
+  margin-bottom: 0px;
+}
+
+.submit {
+  justify-content: center;
+  padding-left: 0px;
+}
