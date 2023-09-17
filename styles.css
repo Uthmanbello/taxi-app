@@ -111,6 +111,11 @@ body {
   width: 100%;
 }
 
+.cash-select {
+  display: flex;
+  align-items: center;
+}
+
 .promo-code {
   display: flex;
   align-items: center;
