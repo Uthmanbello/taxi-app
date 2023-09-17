@@ -56,3 +56,9 @@ body {
   height: 50px;
   border-radius: 50%;
 }
+
+.bottom-div {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+}
