@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: 'Poppings', sans-serif;
 }
 
 body {
@@ -93,11 +94,18 @@ body {
   color: #FFFFFF;
 }
 
+.booking-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .booking-amount {
   color: #FFFFFF;
   /* margin-right: 3px; */
 }
 
 .back-button {
-  text-align: center;
+  padding-top: 10px;
+  rotate: 180deg;
 }
