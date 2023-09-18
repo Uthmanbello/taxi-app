@@ -297,7 +297,7 @@ li {
   height: 60vh;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  width: 100vw;
+  width: 100.5vw;
   margin: 0% -10%;
   padding: 2% 8%;
 }
@@ -345,17 +345,21 @@ star-rating {
   width: 90%;
   margin-left: 10px;
   margin-right: 10px;
-  padding-left: 10px;
+  padding-left: 16px;
   padding-top: 10px;
   border: 1px solid #d6d6d6;
   background-color: #EDEDED;
+  border-radius: 16px;
 }
 
-payment-detail {
-  text-align: justify;
-  margin-bottom: -40px;
-  margin-top: -40px;
+.payment-detail {
+  margin-right: auto;
 }
+
+.trip-detail {
+  margin-left: 10px;
+}
+
 .detail-items div {
   border: 1px solid #d6d6d6;
   background-color: #EDEDED;
