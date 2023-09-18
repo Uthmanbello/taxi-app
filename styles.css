@@ -43,7 +43,6 @@ li {
 
 .navbar {
   align-items: center;
-  width: 376px;
   height: 98px;
   background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 0) 100%);
   padding-top: 10%;
@@ -420,6 +419,20 @@ star-rating {
 }
 
 @media screen and (min-width: 390px) and (min-height: 844px) {
+  .body {
+    background-size: cover;
+    height: 70vh;
+  }
+  
+  .choose-ride {
+    bottom: 20.5%;
+  }
+
+  .choose-ride.active {
+    position: fixed;
+    bottom: 50%;
+  }
+
   .rating-body {
     height: 70vh;
     padding: 0% 8%;
