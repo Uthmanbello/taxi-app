@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyft</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <script src="scripts/navbar.js" defer></script>
+    <script src="scripts/rideOptions.js" defer></script>
+    <script src="scripts/amount.js" defer></script>
+  </head>
+  <body>
+    <section class="body">
+      <nav class="space-between navbar">
+        <div class="nav-icon" id="nav-icon">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <a href="index.html"><img src="images/lyft_logo.svg" alt="lyft logo" class="logo"></a>
+        <img src="images/profile_pic(1).png" alt="profile picture" class="profile-pic">
+      </nav>
+
+      <div class="panel" id="panel">
+        <ul>
+          <li><img src="images/ellipse.svg">&nbsp;&nbsp;Skate Park</li>
+          <li class="add-item"><span class="add-rule"></span><span class="add-button"><img src="images/plus-circle.svg">&nbsp;Add</span></li>
+          <li><img src="images/ic_pin.svg">&nbsp;&nbsp;&nbsp;Home</li>
+        </ul>
+      </div>
+
+      <div class="choose-ride" id="choose-ride">
+        <p>Choose your ride</p>
+        <img src="images/Back.svg">
+      </div>
+      
+      <ul class="ride-options" id="ride-options">
+        <li class="space-between">
+          <div class="">
+            <p>Toyota Camry</p>
+            <p>2-3 persons</p>
+          </div>
+          <p class="amount">$7,00</p>
+        </li>
+        <li class="space-between">
+          <div class="">
+            <p>Lexus R70</p>
+            <p>2-3 persons</p>
+          </div>
+          <p class="amount">$9,00</p>
+        </li>
+        <li class="space-between">
+          <div class="">
+            <p>Mercedes W90</p>
+            <p>1-2 persons</p>
+          </div>
+          <p class="amount">$10,00</p>
+        </li>
+      </ul>
+    </section>
+
+    <div class="bottom-div">
+      <div class="cash">
+        <p class="cash-select">Cash&nbsp;&nbsp;<img src="images/icon_back.svg"></p>
+        <p class="promo-code"><img src="images/percent-sign.svg">&nbsp;Promo code</p>
+      </div>
+      <div class="booking">
+        <p class="car-booking">Book this car</p>
+        <div class="booking-div">
+          <span class="booking-amount">$0,00</span>
+          <a href="rating.html"><img src="images/Back.svg" class="back-button"></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyft</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <script src="scripts/starRating.js" defer></script>
+  </head>
+  <body>
+    <section class="rating-body">
+      <div class="space-between heading-rating">
+        <a href="index.html"><img src="images/Close.svg"></a>
+        <h3>Rate Your Trip</h3>
+        <div></div>
+      </div>
+
+      <div class="rating-body-2">
+        <div class="space-between star-rating">
+          <div class="row">
+            <img src="images/profile_pic(1).png" alt="profile picture" class="profile-pic profile-pic-rating">
+            <div class="column">
+              <p class="username">Uthman Bello</p>
+              <div class="row rating-number">
+                <img src="images/Shape.svg">
+                &nbsp;<p id="rating-value">0.0</p>
+              </div>
+            </div>
+          </div>
+          <img src="images/Group 90.svg">
+        </div>
+
+        <div>
+          <h4 class="trip-enquiry">How is your trip?</h4>
+          <div class="row rating">
+            <span class="star" data-value="1"></span>
+            <span class="star" data-value="2"></span>
+            <span class="star" data-value="3"></span>
+            <span class="star" data-value="4"></span>
+            <span class="star" data-value="5"></span>
+          </div>
+          <textarea placeholder="Write your feedback" class="text"></textarea>
+        </div>
+
+        <div>
+          <h4 class="trip-detail">Trip Detail</h4>
+          <div class="detail-items">
+            <div></li><img src="images/ellipse.svg">&nbsp;&nbsp;Skate Park</div>
+            <div><img src="images/ic_pin.svg">&nbsp;&nbsp;&nbsp;Home</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="bottom-div column">
+      <h4 class="payment-detail">Payment Detail</h4>
+      <div class="column payment-info">
+        <div class="space-between">
+          <p>Trip Expense</p>
+          <p>$9,00</p>
+        </div>
+        <div class="space-between">
+          <p>Discount Voucher</p>
+          <p>$1,00</p>
+        </div>
+        <div class="space-between">
+          <p>Total</p>
+          <p>$8,00</p>
+        </div>
+      </div>
+      <a href="index.html">
+        <div class="booking submit">
+          <p class="car-booking">Submit</p>
+        </div>
+      </a>
+    </div>
+  </body>
+</html>
