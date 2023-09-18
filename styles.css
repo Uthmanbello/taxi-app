@@ -56,7 +56,7 @@ li {
   justify-content: center;
   align-items: center;
   gap: 4px;
-  background-color: #8F00FF;
+  background-color: #8f00ff;
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -66,7 +66,7 @@ li {
 
 .nav-icon span {
   width: 18px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #fff;
   transition: transform 0.3s ease;
 }
 
@@ -91,7 +91,7 @@ li {
   margin-right: 5vh;
   background-color: #fff;
   border: 1px solid #ccc;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   padding-left: 15px;
   border-radius: 20px;
   transition: display 0.5s ease;
@@ -118,11 +118,11 @@ li {
 .add-rule {
   border: 1px solid #d6d6d6;
   width: 70%;
-  height: 0px;
+  height: 0;
 }
 
 .add-button {
-  background-color: #EDEDED;
+  background-color: #ededed;
   border: 1px solid #d6d6d6;
   padding: 5px;
   border-radius: 20px;
@@ -155,13 +155,13 @@ li {
   align-items: center;
   justify-content: space-between;
   width: 100vw;
-  background-color: #FFFFFF;
+  background-color: #fff;
   padding-top: 2vh;
   padding-left: 5vh;
   padding-right: 5vh;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
 
@@ -177,13 +177,17 @@ li {
   list-style: none;
 }
 
+.rating-number p {
+  color: #d6d6d6;
+}
+
 .ride-options li {
   padding: 10px 30px;
 }
 
 .ride-options li div p {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 .ride-options li div p:nth-child(1) {
@@ -195,8 +199,8 @@ li {
 }
 
 .ride-options li:hover {
-  color: #FFFFFF;
-  background-color: #8F00FF;
+  color: #fff;
+  background-color: #8f00ff;
 }
 
 .ride-options.show {
@@ -229,11 +233,11 @@ li {
   align-items: center;
   justify-content: center;
   width: 100vw;
-  background-color: #FFFFFF;
+  background-color: #fff;
   padding-bottom: 4vh;
   padding-left: 5vh;
   padding-right: 5vh;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .cash {
@@ -251,7 +255,7 @@ li {
 .promo-code {
   display: flex;
   align-items: center;
-  background-color: #EDEDED;
+  background-color: #ededed;
   border: 1px solid #d6d6d6;
   border-radius: 40px;
   padding: 8px;
@@ -261,7 +265,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #000000;
+  background-color: #000;
   width: 303px;
   height: 64px;
   border-radius: 40px;
@@ -269,7 +273,7 @@ li {
 }
 
 .car-booking {
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .booking-div {
@@ -279,7 +283,7 @@ li {
 }
 
 .booking-amount {
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .back-button {
@@ -290,7 +294,7 @@ li {
 /* DETAILS PAGE */
 
 .rating-body {
-  background-color: #8F00FF;
+  background-color: #8f00ff;
   height: 70vh;
   padding: 0% 8%;
 }
@@ -300,7 +304,7 @@ li {
 }
 
 .rating-body-2 {
-  background-color: #FFFFFF;
+  background-color: #fff;
   height: 60vh;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -309,8 +313,8 @@ li {
   padding: 2% 8%;
 }
 
-.rating-body div h3{
-  color: #FFFFFF;
+.rating-body div h3 {
+  color: #fff;
 }
 
 .profile-pic-rating {
@@ -322,17 +326,13 @@ li {
   font-weight: bolder;
 }
 
-star-rating {
-  align-items: center;  
+.star-rating {
+  align-items: center;
 }
 
 .rating-number {
   margin-top: -35px;
   padding: 0;
-}
-
-.rating-number p {
-  color: #d6d6d6;
 }
 
 .trip-enquiry {
@@ -382,7 +382,7 @@ star-rating {
   padding-left: 16px;
   padding-top: 10px;
   border: 1px solid #d6d6d6;
-  background-color: #EDEDED;
+  background-color: #ededed;
   border-radius: 16px;
 }
 
@@ -396,7 +396,7 @@ star-rating {
 
 .detail-items div {
   border: 1px solid #d6d6d6;
-  background-color: #EDEDED;
+  background-color: #ededed;
   padding: 10px 32px;
   width: 100vw;
   margin-left: -8%;
@@ -410,12 +410,12 @@ star-rating {
 }
 
 .payment-info div:last-child {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .submit {
   justify-content: center;
-  padding-left: 0px;
+  padding-left: 0;
 }
 
 @media screen and (min-width: 390px) and (min-height: 844px) {
@@ -423,7 +423,7 @@ star-rating {
     background-size: cover;
     height: 70vh;
   }
-  
+
   .choose-ride {
     bottom: 20.5%;
   }
@@ -458,7 +458,7 @@ star-rating {
     width: 90%;
     height: 12vh;
   }
-  
+
   .detail-items div {
     padding: 16px 32px;
   }
