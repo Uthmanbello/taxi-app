@@ -340,6 +340,33 @@ star-rating {
   gap: 5px;
 }
 
+.rating {
+  align-items: center;
+  justify-content: center;
+  margin-top: -20px;
+  gap: 5px;
+  font-size: 0;
+  cursor: pointer;
+}
+
+.star {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url('images/star-empty.png') no-repeat;
+  background-size: contain;
+  margin-right: 5px;
+}
+
+.star.active {
+  background: url('images/star-gold.png') no-repeat;
+  background-size: contain;
+}
+
+.rating-status {
+  margin-top: 10px;
+}
+
 .text {
   margin-top: 5px;
   width: 90%;
